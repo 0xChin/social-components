@@ -1,0 +1,73 @@
+.commentsGlobalContainer {
+  border-radius: 0.375rem;
+  width: 100%;
+  border-width: 1px;
+}
+.commentsContainer {
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 0;
+  border-right-width: 0px;
+  padding: 1.5rem;
+  container-type: inline-size;
+}
+.commentsContainer > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
+}
+
+.notificationsBanner {
+  cursor: pointer;
+  display: flex;
+  padding: 0.65rem;
+  border-width: 1px;
+  border-style: solid;
+}
+.notificationsBanner:hover {
+  text-decoration: underline;
+}
+.notificationsBannerText {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.loadingContainer {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding: 2rem;
+}
+
+.commentsEmptyStateContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greyLine {
+  position: absolute;
+  margin-left: -1px;
+  border-radius: 0.375rem;
+}
+
+.footerContainer {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.footerOpenSocialContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footerOpenSocialContainer:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
