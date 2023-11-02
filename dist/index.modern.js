@@ -6147,4 +6147,4 @@ en.long.minute = {
 TimeAgo.addDefaultLocale(en);
 
 export { AccessRulesDetails, AccessRulesModal, Article, Button, Chat, Comments, ConnectButton, Comments as Discussion, FollowButton, Inbox, MentionsBox, OrbisProvider, Post, Postbox, User, UserBadge, UserCredential, UserPfp, UserPopup, Username, checkContextAccess, darkTheme, defaultTheme, useOrbis };
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.modern.js.map
